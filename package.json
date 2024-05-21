@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build; echo 'test build';",
+    "build": "next build; pnpm lint;",
     "dev": "next dev",
     "lint": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
